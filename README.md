@@ -1,7 +1,8 @@
 # AIPF Simulation Project Description
 
 This project is based on the Adaptive Integrated Particle Filter (AIPF) algorithm, which fuses inertial navigation data and magnetic map data to achieve matching-based positioning in simulation. The project mainly consists of the following parts:
-
+## 0.Preparation
+Install the IGRF model in MATLAB add-ons before running.
 ## 1. Main Functions
 - **D2_igrf_pos_main.m**: Simulation verification program based on the IGRF model.  
 - **D2_indoor_main.m**: Simulation verification program using indoor measurement data.  
